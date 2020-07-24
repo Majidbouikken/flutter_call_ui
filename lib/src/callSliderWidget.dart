@@ -119,24 +119,20 @@ class _CallState extends State<Call> with SingleTickerProviderStateMixin {
                         if (greenSize == false)
                           setState(() {
                             greenSize = true;
-                            print(greenSize);
                           });
                         else if (greenSize == true)
                           setState(() {
                             greenSize = false;
-                            print(greenSize);
                           });
                       },
                       onDragUpdateRed: () {
                         if (redSize == false)
                           setState(() {
                             redSize = true;
-                            print(redSize);
                           });
                         else if (redSize == true)
                           setState(() {
                             redSize = false;
-                            print(redSize);
                           });
                       },
                     ),

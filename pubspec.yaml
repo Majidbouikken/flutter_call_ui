@@ -1,8 +1,8 @@
 name: phone_call_slider
 description: A stylized phone call slider widget made to be quickly edited and fitted to any project.
-version: 0.0.1
-author:
-homepage:
+version: 1.0.0
+author: AbdelMadjid Bouikken <bouikkenmajid@gmail.com>
+homepage: https://github.com/Majidbouikken/flutter_call_ui
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
